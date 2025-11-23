@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std; int main(){    long long t;    cin>>t;    while(t--)    {        string s,d;        cin>>s>>d;        swap(s[0],d[0]);        cout<<s<<" "<<d<<endl;    }}
